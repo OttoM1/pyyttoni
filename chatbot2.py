@@ -6,14 +6,14 @@ app = Flask(__name__)
 
 responses = {
 
-    #greetings
+    #morot
 "hello": ["How are you?", "How can I help you?", "Hello!", "Hey!"],
 "going": ["Absolute cinema! How about you?"],
  "good": ["Glad to hear!", "Nice to hear! How can I help you?"],
     "bad": ["Oh, sad to hear.", "Hope you get better soon!", "Want to hear a joke? YOU!"],
 
 
-#singulars
+#jotain
 
  "ok": ["Alright.", "Got it.", "Okay then!"],
     "yeah": ["Yeah!", "Cool.", "Sounds good."],
@@ -28,7 +28,7 @@ responses = {
     "bye": ["Goodbye!", "See you later!", "Bye! Have a great day!"],
 
 
-#in english
+#in 
 
 "military": ["Otto completed his conscription with the Guard Jaeger Regiment's readiness unit, 1/23."],
 "work experience": ["Otto has various experiences from different fields such as; customer service, retail, logistics, golf course management, entrepreneurship, and front-end programming."],
@@ -38,7 +38,7 @@ responses = {
 "passion": ["Otto is deeply passionate about animations and keyframes in CSS, creating smooth transitions and interactive elements that captivate users. His goal is to make a lasting impact on user experiences, evoking unforgettable emotions through engaging technology."],
 
 
-#about otto
+# otto
 "live": ["Otto lives in Oulu, Finland"],
 "girlfriend": ["Otto does not have a girlfriend ;)"],
 
@@ -84,7 +84,7 @@ responses = {
                 "omg": ["Did I surprise you?"],
 
 
-#studies related
+#studi related
 
         "bench": ["I do not have accurate information, but I guess Otto can bench press around 90kg's."],
         "drive": ["Otto can hit his driver 280-290m on a good day."],
@@ -117,7 +117,7 @@ responses = {
    "script": ["Otto is expanding his expertise in JavaScript for more dynamic development, focusing on how it interacts with front-end frameworks. While still relatively new to the language, he has a strong determination to dive deeper once he completes his Java course. Currently, his JavaScript skills are primarily focused on front-end web development, enhancing interactivity and UX."],
 "ix": ["Otto is passionate about UI/UX design, aiming to create intuitive, user-friendly, and visually engaging interfaces. His future goal is to design seamless experiences not only for web environments but also for applications and games, ensuring both functionality and aesthetic appeal."],
    
-   #default
+   #deffi
    "da": ["Let's relax."],
    
     # "default": ["Ask something else :)", "I'm not sure...maybe rephrase that", "For more successful answers, keep your questions short or just simply use the keyword for the best accuracy."]
@@ -700,7 +700,7 @@ def chat():
     return jsonify({'response': response})
 
 
-# Run 
+# ajoon
 if __name__ == '__main__':
     app.run(debug=True)
 
